@@ -11,7 +11,7 @@ COPY req.txt .
 RUN pip install -r req.txt
 
 # Copy the application code into the container
-COPY . .
+COPY .
 
 # Expose the port the Flask application will be listening on
 EXPOSE 5000
